@@ -114,6 +114,30 @@ h2 {
   border-radius: 10px;
 }
 
+.c-one {
+  background-image: url(./img/cat-sleeping-5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-two {
+  background-image: url(./img/cat-sleeping-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-three {
+  background-image: url(./img/cat-sleeping-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-four {
+  background-image: url(./img/cat-sleeping-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .cards p {
   text-align: center;
   margin: 0px;
