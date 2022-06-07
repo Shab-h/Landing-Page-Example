@@ -42,7 +42,6 @@ a {
 }
 
 .one {
-  /* padding-bottom: 5rem; */
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -179,7 +178,7 @@ h2 {
   text-align: end;
   font-size: 24px;
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .countainer-bottom {
