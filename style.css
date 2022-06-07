@@ -1,0 +1,123 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+}
+
+.Header-Logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.section {
+  padding: 2.5rem 5rem;
+}
+
+.one {
+  /* padding-bottom: 5rem; */
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-section {
+  flex: 1;
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.text {
+  min-width: 400px;
+}
+
+.one h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.one p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.image {
+  background-image: url(./img/cat-sleeping.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 2;
+}
+
+.button {
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: #3882f6;
+  padding: 0.25rem 1.75rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 160px;
+  width: 150px;
+  border: #3882f6 4px solid;
+  border-radius: 10px;
+}
+
+.cards p {
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #1f2937;
+}
